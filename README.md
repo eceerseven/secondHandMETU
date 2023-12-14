@@ -2,8 +2,9 @@
 Welcome to the secondHandMETU repository! This project is designed to provide a sustainable way to buy and sell second-hand items within the METU community. The repository consists of two leading apps - "userAuthentication" and "marketplace," each serving distinct functionalities to improve the user experience.
 
 The project is structured into two main apps, each with its designated purpose:
---------------------------------------------------
+
 userAuthentication
+--------------------------------------------------
 The "userAuthentication" app focuses on user-related functionalities, including authentication, registration, and profile management.
 
 Models:
@@ -26,8 +27,9 @@ register.html: Page with form for user registration.
 login.html: Page with form for user login.
 dashboard.html: Dashboard view displaying the nav-bar.
 profile/user_profile.html: User profile editing page.
-----------------------------------------------------
+
 marketplace
+----------------------------------------------------
 
 The "marketplace" app is created for buying and selling items within the project.
 
