@@ -4,8 +4,9 @@ Welcome to the secondHandMETU repository! This project is designed to provide a 
 The secondHandMETUproject directory includes the Django apps that consist of both front-end and back-end codes for this project. The progress directory includes the submitted progress report, Environments-Scripts-Project related files directory is more about the environment, packages etc. 
 
 The project is structured into two main apps, each with its designated purpose:
---------------------------------------------------
+
 userAuthentication
+--------------------------------------------------
 The "userAuthentication" app focuses on user-related functionalities, including authentication, registration, and profile management.
 
 Models:
@@ -28,8 +29,9 @@ register.html: Page with form for user registration.
 login.html: Page with form for user login.
 dashboard.html: Dashboard view displaying the nav-bar.
 profile/user_profile.html: User profile editing page.
-----------------------------------------------------
+
 marketplace
+----------------------------------------------------
 
 The "marketplace" app is created for buying and selling items within the project.
 
