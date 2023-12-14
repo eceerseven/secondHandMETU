@@ -1,6 +1,8 @@
 # secondHandMETU
 Welcome to the secondHandMETU repository! This project is designed to provide a sustainable way to buy and sell second-hand items within the METU community. The repository consists of two leading apps - "userAuthentication" and "marketplace," each serving distinct functionalities to improve the user experience.
 
+The secondHandMETUproject directory includes the Django apps that consist of both front-end and back-end codes for this project. The progress directory includes the submitted progress report, Environments-Scripts-Project related files directory is more about the environment, packages etc. 
+
 The project is structured into two main apps, each with its designated purpose:
 --------------------------------------------------
 userAuthentication
