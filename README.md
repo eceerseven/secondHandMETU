@@ -3,7 +3,8 @@ Welcome to the secondHandMETU repository! This project is designed to provide a 
 
 The project is structured into two main apps, each with its designated purpose:
 
-userAuthentication--------------------------------------------------
+userAuthentication
+--------------------------------------------------
 The "userAuthentication" app focuses on user-related functionalities, including authentication, registration, and profile management.
 
 Models:
