@@ -1,0 +1,38 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Posts - SecondHandMETU</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+   <div class="container mt-4">
+        <h2>My Posts</h2>
+        <hr>
+        <!-- Displaying user's posted items in cards -->
+        <div class="card-deck">
+            {% for post in user_posts %}
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ post.item_name }}</h5>
+                        <p class="card-text">Price: ${{ post.price }}</p>
+                        <p class="card-text">Category: {{ post.category }}</p>
+                        <p class="card-text">Condition: {{ post.condition }}</p>
+
+                    </div>
+
+                    {% if post.image %}
+                          <img src="{{ post.image.url }}" style="width: 100%; height: auto;">
+                        {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
