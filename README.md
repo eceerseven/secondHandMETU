@@ -1,7 +1,7 @@
 # secondHandMETU
-Welcome to the secondHandMETU repository! This project is designed to provide a sustainable way to buy and sell second-hand items within the METU community. The repository consists of two leading apps - "userAuthentication" and "marketplace," each serving distinct functionalities to improve the user experience.
+Welcome to the secondHandMETU repository! This project is designed to provide a sustainable way to buy and sell second-hand items within the METU community. The repository consists of a proposal directory that includes the proposal report of the project, a progress directory that contains the progress report, a secondHandMetuProject directory, and the README file.
 
-The project is structured into two main apps, each with its designated purpose:
+The project is structured into two main apps, which are available in the secondHandMETUproject directory, each with its designated purpose:
 
 userAuthentication
 --------------------------------------------------
