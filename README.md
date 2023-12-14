@@ -30,9 +30,9 @@ login.html: Page with form for user login.
 dashboard.html: Dashboard view displaying the nav-bar.
 profile/user_profile.html: User profile editing page.
 
+
 marketplace
 ----------------------------------------------------
-
 The "marketplace" app is created for buying and selling items within the project.
 
 Models:
