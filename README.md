@@ -13,7 +13,7 @@ UserProfile: This model stores essential user information such as email and phon
 Views:
 register: Handles user registration, ensuring a seamless process for new users to join the system.
 user_login: Manages user login using the AuthenticationForm, redirecting authenticated users to the dashboard.
-dashboard: Retrieves and displays the user profile upon successful login.
+dashboard: Retrieves and displays the user profile upon successful login. Enable user for search items and return search results.
 user_logout: Implements the logout functionality, redirecting users to the home page.
 
 Forms:
