@@ -56,11 +56,3 @@ def dashboard(request):
     user_profile = UserProfile.objects.get(user=request.user)
     return render(request, 'userAuthentication/dashboard.html', {'user_profile': user_profile})
 
-#def search_results(request):
-    # Implement your search functionality here
-    # You can use request.GET.get('query') to get the search query from the URL parameters
-    # Perform the search and prepare the data to be displayed
-    # return render(request, 'userAuthentication/search_results.html', {'results': search_results_data})
-    # Pass the data to the template and render it
-
-    #return render(request, 'userAuthentication/search_results.html')
