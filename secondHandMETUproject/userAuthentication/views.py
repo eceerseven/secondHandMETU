@@ -74,8 +74,10 @@ def dashboard(request):
             search_query = search_form.cleaned_data.get('query', '')
 
             # AWS CloudSearch configuration
+
             aws_access_key_id = '**********'
             aws_secret_access_key = '****************'
+
             aws_region = 'us-east-1'
             cloudsearch_domain = 'secondhand'
 
